@@ -1,4 +1,10 @@
-
+terraform {
+  required_providers {
+    artifactory = {
+      source = "jfrog/artifactory"
+    }
+  }
+}
 provider "artifactory" {
   url      = "https://harshithashicorp.jfrog.io/artifactory"
   username = "harshit.dixit@hashicorp.com"
