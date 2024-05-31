@@ -1,15 +1,8 @@
-terraform {
-  required_providers {
-    artifactory = {
-      source = "jfrog/artifactory"
-    }
-  }
-}
 
 provider "artifactory" {
   url      = "https://harshithashicorp.jfrog.io/artifactory"
   username = "harshit.dixit@hashicorp.com"
-  password = "cmVmdGtuOjAxOjE3NDg3MTEwNzI6TElCME90djlTa3dRdVRLb2JVaFZ2eU9Ham1C"
+  password = "Changeme@123"
 }
 
 module "ec2" {
