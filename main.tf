@@ -1,6 +1,3 @@
-module "ec2" {
-  source  = "https://harshithashicorp.jfrog.io/artifactory/harshittest-terraform-modules-local/sdk/terraform-aws-ec2-instance/aws/v1.0.0.zip"
-}
 terraform {
   required_providers {
     artifactory = {
@@ -13,4 +10,9 @@ provider "artifactory" {
   url      = "https://harshithashicorp.jfrog.io/artifactory"
   username = "harshit.dixit@hashicorp.com"
   password = "Changeme@123"
+}
+
+module "ec2" {
+  source = "harshithashicorp/harshittest-terraform-modules-local/sdk/terraform-aws-ec2-instance/aws"
+  version = "v1.0.0"
 }
