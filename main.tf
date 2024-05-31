@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     artifactory = {
-      source = "sdk/artifactory"
+      source = "jfrog/artifactory"
     }
   }
 }
