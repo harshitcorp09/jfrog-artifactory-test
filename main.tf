@@ -13,6 +13,6 @@ provider "artifactory" {
 }
 
 module "ec2" {
-  source = "harshittest-terraform-modules-local/sdk/terraform-aws-ec2-instance/aws"
+  source = "https://harshithashicorp.jfrog.io/artifactory/harshittest-terraform-modules-local/sdk/terraform-aws-ec2-instance/aws/v1.0.0.zip"
   #version = "v1.0.0"
 }
