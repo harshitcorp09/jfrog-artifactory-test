@@ -11,6 +11,6 @@ terraform {
 
 provider "artifactory" {
   url      = "https://harshithashicorp.jfrog.io/artifactory"
-  username = var.artifactory_user
-  password = var.artifactory_password
+  username = "harshit.dixit@hashicorp.com"
+  password = "Changeme@123"
 }
