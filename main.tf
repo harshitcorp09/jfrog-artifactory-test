@@ -7,7 +7,7 @@ module "ec2" {
   name = "single-instance"
 
   instance_type          = "t2.micro"
-  key_name               = "Harshit-TFE-KetPair"
+  key_name               = "Harshit-TFE-KeyPair"
   monitoring             = true
  
   tags = {
