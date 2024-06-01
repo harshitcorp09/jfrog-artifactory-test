@@ -11,6 +11,6 @@ provider "artifactory" {
   password = "Changeme@123"
 }
 module "ec2" {
-  source = "https://harshithashicorp.jfrog.io/artifactory/harshittest-terraform-modules-local/sdk/terraform-aws-ec2-instance/aws/v1.0.0.zip"
-  #version = "v1.0.0"
+  source  = "harshithashicorp.jfrog.io/harshittest-terraform__sdk/terraform-aws-ec2-instance/aws"
+  version = "v1.0.0"
 }
